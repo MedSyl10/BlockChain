@@ -1,3 +1,6 @@
+#ifndef VerifierBloc_h
+#define VerifierBloc_h
+
 namespace VerifierBloc {
 	
 	bool verificationTransaction(TX transaction);
@@ -5,3 +8,5 @@ namespace VerifierBloc {
 	bool verificationBloc(Bloc bloc);
 
 }
+
+#endif
