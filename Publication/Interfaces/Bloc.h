@@ -36,9 +36,9 @@ class TXM { // transaction du mineur
 
 class Bloc
 {
-	char hash[64]; // hash des autres champs, hash of the entire transaction
+	char hash[64]; // hash des autres champs, hash of the entire bloc
 
-	char previous_hash[HASH_SIZE]; // hash of the previous transaction 
+	char previous_hash[HASH_SIZE]; // hash of the previous bloc
 	unsigned int nonce;
 	int num; // numero du bloc, commence a zero
 	TX tx1; //  transaction du bloc
