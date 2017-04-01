@@ -10,18 +10,18 @@
 #define KEY_SIZE 4 // taille en byte des cle (publique, privee) a valider avec les groupes specifiant et developpant la signature
 #define HASH_SIZE 64  // taille du hash, a valider avec les groupes specifiant et developpant le hacheur
 
-class TXI // transaction input
+class TXI // input d'une transaction
 {
 	unsigned int nBloc;
 	unsigned int nTx;   // hash of the previous transaction
-	unsigned int nUtxo; // index of output
-	unsigned char signature[64];
+	unsigned int nUtxo; // index of output ( la référence d'une transaction précédente)
+	unsigned char signature[64]; // signature de la transaction avec la clé privée
 };
 
 class UTXO // une sortie non dépensée
 {
 	float montant;
-	unsigned char dest[KEY_SIZE];  //compte destinataire , public key
+	unsigned char dest[KEY_SIZE];  //	compte destinataire (clé publique)
 	unsigned char hash[HASH_SIZE];    // hash(nBloc,nTx,nUTXO,montant,destinataire) pour securisation de l'UTXO
 };
 
