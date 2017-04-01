@@ -5,7 +5,7 @@ namespace VerifierBloc {
 	/*
 		Vérifier la validité des transactions, pour cela
 			- on doit s'assurer que la somme des sorties est moins que la somme des entrées  pour chaque transaction.
-			- les sorties référencées par les entrées existent et n’ont pas encore été utilisées
+			- vérifier que les sorties référencées par les entrées existent et n’ont pas encore été utilisées
 			- vérifier la signature de chaque transaction 
 	*/
 	bool verificationTransaction(TX transaction);
