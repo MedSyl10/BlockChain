@@ -1,3 +1,4 @@
+#pragma once;
 #ifndef VerifierBloc_h
 #define VerifierBloc_h
 
@@ -9,8 +10,7 @@ namespace VerifierBloc {
 			- vérifier la signature de chaque transaction 
 		* renvoie true si la transaction en entrée est valide
 	*/
-	bool verificationTransaction(TX transaction);
-	bool verificationTransaction(TXM transaction);
+	bool checkTransaction(TX transaction);
 
 	/*
 		True si :
@@ -21,13 +21,7 @@ namespace VerifierBloc {
 				- vérifier si le bloc est dans la même branche
 		
 	*/
-	bool valideBloc(Bloc bloc);
-
-	/*
-	* appelle la fonction valideBloc (Bloc bloc)
-	* et verificationTransaction(TX/TXM transaction) pour chaque transaction du bloc
-	*/
-	bool verificationBloc(Bloc bloc);
+	bool checkBloc(Bloc * bloc);
 }
 
 #endif
