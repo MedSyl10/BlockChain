@@ -52,7 +52,7 @@ int main()
 
 	std::cout << "value of hash: " << Hasheur::hash(value_to_hash) << std::endl;
 
-	std::string verification = "c451caf43068ec6b8500c0e8227a4efc14956a70f801a5a58ba226fcd740dabc";
+	std::string verification = "918dbd3868404314fc8455002f63717d6d938e09b84a6e4625c48fd00b175b55";
 
 	Hasheur::checkHash(value_to_hash, verification) ? std::cout << "Hash is valid" << std::endl
 		: std::cout << "Hash is not valid" << std::endl;
