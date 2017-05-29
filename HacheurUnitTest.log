@@ -1,0 +1,31 @@
+﻿  stdafx.cpp
+  unittest1.cpp
+  Sha256.cpp
+  Hacheur.cpp
+c:\users\marti\source\repos\hacheur\hacheur\hacheur.cpp(11): warning C4273: 'Hash::Hash::hash' : liaison DLL incohérente
+  c:\users\marti\source\repos\hacheur\hacheur\hacheur.h(25): note: voir la définition précédente de 'hash'
+c:\users\marti\source\repos\hacheur\hacheur\hacheur.cpp(17): warning C4273: 'Hash::Hash::checkHash' : liaison DLL incohérente
+  c:\users\marti\source\repos\hacheur\hacheur\hacheur.h(31): note: voir la définition précédente de 'checkHash'
+c:\users\marti\source\repos\hacheur\hacheur\hacheur.cpp(22): warning C4273: 'Hash::Hash::blocToString' : liaison DLL incohérente
+  c:\users\marti\source\repos\hacheur\hacheur\hacheur.h(37): note: voir la définition précédente de 'blocToString'
+c:\users\marti\source\repos\hacheur\hacheur\hacheur.cpp(68): warning C4273: 'Hash::Hash::charToString' : liaison DLL incohérente
+  c:\users\marti\source\repos\hacheur\hacheur\hacheur.h(39): note: voir la définition précédente de 'charToString'
+c:\users\marti\source\repos\hacheur\hacheur\hacheur.cpp(78): warning C4273: 'Hash::Hash::charToString' : liaison DLL incohérente
+  c:\users\marti\source\repos\hacheur\hacheur\hacheur.h(40): note: voir la définition précédente de 'charToString'
+  Bloc.cpp
+c:\users\marti\source\repos\hacheur\hacheur\bloc.cpp(28): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: voir la déclaration de 'strncpy'
+c:\users\marti\source\repos\hacheur\hacheur\bloc.cpp(44): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: voir la déclaration de 'strncpy'
+c:\users\marti\source\repos\hacheur\hacheur\bloc.cpp(49): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: voir la déclaration de 'strncpy'
+c:\users\marti\source\repos\hacheur\hacheur\bloc.cpp(50): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: voir la déclaration de 'strncpy'
+c:\users\marti\source\repos\hacheur\hacheur\bloc.cpp(77): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: voir la déclaration de 'strncpy'
+c:\users\marti\source\repos\hacheur\hacheur\bloc.cpp(85): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: voir la déclaration de 'strncpy'
+c:\users\marti\source\repos\hacheur\hacheur\bloc.cpp(86): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: voir la déclaration de 'strncpy'
+  Génération de code en cours...
+C:\Users\marti\Source\Repos\Hacheur\Debug\Hacheur.dll : fatal error LNK1107: fichier non valide ou endommagé : impossible de lire à 0x328
