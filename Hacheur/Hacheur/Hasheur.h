@@ -1,8 +1,8 @@
 #pragma once
 
 
-#ifdef HACHEURDLL_EXPORTS
-#define HACHEURDLL_API __declspec(dllexport) 
+#ifdef HASHEURDLL_EXPORTS
+#define HASHEURDLL_API __declspec(dllexport) 
 #else
 #define HASHEURDLL_API __declspec(dllimport) 
 #endif
